@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg,#3f35e9 0%, #c382a4 80%);
+}
+form{
+    margin-left: 250px;
+    border: 2px solid rgb(243, 34, 34);
+}
+input[type="text"],input[type="password"],
+input[type="email"],input[type="url"],
+input[type="number"]
+{
+    height: 50px;
+    width: 300px;
+    
+}
+select
+{
+    height: 50px;
+    width: 300px;
+    
+}
+label{
+    display: block;
+}
+button{
+    background-color: blue;
+    color: blanchedalmond;
+    padding: 10px;
+}
+input::placeholder{
+    color: #e20d7b;
+}
